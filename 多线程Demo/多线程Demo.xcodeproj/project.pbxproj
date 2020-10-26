@@ -17,6 +17,7 @@
 		C45F6F352540732C00D8BEEE /* ___DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45F6F342540732C00D8BEEE /* ___DemoUITests.swift */; };
 		C45F6F462540753900D8BEEE /* GCDDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45F6F452540753900D8BEEE /* GCDDemoViewController.swift */; };
 		C45F6F492541B2C000D8BEEE /* NSOperationDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45F6F482541B2C000D8BEEE /* NSOperationDemoViewController.swift */; };
+		C4E433742546C06D0023D6DB /* LockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E433732546C06D0023D6DB /* LockViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		C45F6F362540732C00D8BEEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C45F6F452540753900D8BEEE /* GCDDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCDDemoViewController.swift; sourceTree = "<group>"; };
 		C45F6F482541B2C000D8BEEE /* NSOperationDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSOperationDemoViewController.swift; sourceTree = "<group>"; };
+		C4E433732546C06D0023D6DB /* LockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		C45F6F112540731C00D8BEEE /* 多线程Demo */ = {
 			isa = PBXGroup;
 			children = (
+				C4E433722546C0540023D6DB /* Lock */,
 				C45F6F472541B29500D8BEEE /* NSOperation */,
 				C45F6F42254074DA00D8BEEE /* GCD */,
 				C45F6F122540731C00D8BEEE /* AppDelegate.swift */,
@@ -148,6 +151,14 @@
 				C45F6F482541B2C000D8BEEE /* NSOperationDemoViewController.swift */,
 			);
 			path = NSOperation;
+			sourceTree = "<group>";
+		};
+		C4E433722546C0540023D6DB /* Lock */ = {
+			isa = PBXGroup;
+			children = (
+				C4E433732546C06D0023D6DB /* LockViewController.swift */,
+			);
+			path = Lock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,6 +295,7 @@
 				C45F6F492541B2C000D8BEEE /* NSOperationDemoViewController.swift in Sources */,
 				C45F6F462540753900D8BEEE /* GCDDemoViewController.swift in Sources */,
 				C45F6F172540731C00D8BEEE /* ViewController.swift in Sources */,
+				C4E433742546C06D0023D6DB /* LockViewController.swift in Sources */,
 				C45F6F132540731C00D8BEEE /* AppDelegate.swift in Sources */,
 				C45F6F152540731C00D8BEEE /* SceneDelegate.swift in Sources */,
 			);
