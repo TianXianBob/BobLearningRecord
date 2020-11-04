@@ -52,7 +52,7 @@ class ViewController: UITableViewController {
             let vc = NSOperationDemoViewController()
             navigationController?.pushViewController(vc, animated: true)
         case 2:
-            let vc = NSOperationDemoViewController()
+            let vc = LockViewController()
             navigationController?.pushViewController(vc, animated: true)
         default: break
             

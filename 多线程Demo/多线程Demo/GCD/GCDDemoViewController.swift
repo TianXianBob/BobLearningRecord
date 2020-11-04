@@ -179,7 +179,7 @@ class GCDDemoViewController: UIViewController {
         print("createBarrier finish")
     }
     
-    // 用于
+    // 信号量
     func createSemaphore() {
         let semaphore = DispatchSemaphore.init(value: 0)
         var i = 10
@@ -188,7 +188,7 @@ class GCDDemoViewController: UIViewController {
             
             semaphore.signal()
         }
-//        semaphore.wait()
+        semaphore.wait()
         print("i = \(i)")
     }
     
